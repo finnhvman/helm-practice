@@ -1,6 +1,7 @@
 # Extract the service name into a variable.
 #
 # +1: Extract subexpressions to variables
+{{ $title = .Values.title -}}
 apiVersion: v1
 kind: Service
 metadata:
